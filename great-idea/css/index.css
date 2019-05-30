@@ -65,11 +65,11 @@ h1, h2, h3, h4, h5 {
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
-body {
+.wrapper {
 	display: flex;
 	flex-flow: column;
 	width: 890px;
-	margin-left: 50px;
+	margin: 0 auto;
 }
 
 /* navigation styling */
