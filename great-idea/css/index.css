@@ -64,3 +64,248 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+
+.wrapper {
+	display: flex;
+	flex-flow: column;
+	width: 890px;
+	margin: 0 auto;
+}
+
+/* navigation styling */
+nav {
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+	margin: 30px 0;
+
+}
+
+.links{
+	font-size: 13px;
+	margin-top: 15px;
+	text-decoration: none;
+	color: #A7A7A7;
+}
+
+@keyframes navigation {
+	from {background-color: white;}
+	to {background-color: rgb(219, 213, 213);}
+  }
+
+nav a:hover {
+	background: lightblue;
+	color: purple;
+	animation-name: navigation;
+	animation-duration: 2s;
+}
+
+/* <h> tag styling  */
+
+h1 {
+	font-size: 75px;
+	text-align: center;
+}
+
+h2 {
+	font-size: 20px;
+}
+
+/* index page styling */
+
+
+.opener {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	margin: 40px 0;
+}
+
+.openertext {
+	margin-right: 110px;
+}
+
+button {
+	border: 1px solid black;
+	font-size: 12px;
+	font-family: 'Titillium Web', sans-serif;
+	padding: 2px 40px;
+	margin: 0 25%;
+	
+}
+
+
+
+.contentrow1 {
+	display: flex; 
+	justify-content: space-around;
+}
+
+.contentrow2  {
+	display: flex; 
+	justify-content: space-around;
+}
+
+.contentblock {
+	padding: 5px;
+}
+
+hr {
+	border-color: gray;
+	margin: 45px 0;
+}
+
+.middle-img {
+	margin: 30px 0;
+	width: 100%;
+}
+
+.phone {
+	margin: 20px 0;
+}
+
+.email {
+	margin: 20px 0;
+}
+
+
+
+/* services page styling */
+/* top of page */
+
+.servicesheader {
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+}
+
+.services-header-img {
+	margin-bottom: 40px;
+}
+
+/* middle of page */
+
+.servicesmiddlecontent {
+	display: flex;
+	flex-flow: wrap;
+	justify-content: space-between;
+}
+
+.servicesblock {
+	display: flex;
+	flex-flow: column;
+	background-color: #F4F3F4;
+	border: 1px solid black;
+	height: 220px;
+	width: 420px;
+	padding: 20px;
+	margin-bottom: 30px;
+}
+
+.bottomblock {
+	margin: 0;
+}
+
+.servicesbutton {
+	border-radius: 5px;
+	width: 150px;
+	padding: 5px;
+	margin: 20px 0;
+}
+
+.servicescontent {
+	display: flex;
+	flex-flow: column;
+	justify-content: center;
+}
+
+
+
+
+/* bottom of page */
+
+.servicesbottom {
+	display: flex;
+	justify-content: space-between;
+}
+
+.somefacts {
+	display: flex;
+	flex-flow: column;
+}
+
+.somefactstext {
+	margin-bottom: 20px;
+	width: 400px;
+}
+
+
+ul {
+	list-style: square inside none;
+
+}
+
+li {
+	margin: 10px;
+}
+
+.copyright {
+	text-align: center;
+	margin: 50px;
+	font-size: 12px;
+}
+
+/* About Stretch Goal */
+/* about header content */
+.about-header-img {
+	width: 890px;
+	height: 200px;
+	margin-bottom: 30px;
+}
+
+/* about middle content */
+
+.teamphotos {
+	width: 400px;
+	height: 300px;
+	border-radius: 200px;
+	box-shadow: 80px white inset;
+}
+
+.aboutname {
+    font-family: 'Bangers', cursive;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+}
+
+.aboutblock {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 30px;
+}
+
+.aboutbio {
+	border: 1px solid black;
+	width: 400px;
+	height: 300px;
+	background-color: #F4F3F4;
+	padding: 30px;
+}
+
+
+/* Sponsors */
+
+.sponsors {
+	display: flex;
+	justify-content: space-between;
+}
+
+.sponsor {
+	width: 100px;
+	height: 100px;
+	border: 1px dotted blue;
+	display: flex;
+	flex-flow: wrap;
+	justify-content: center;
+	align-items: center;
+}
